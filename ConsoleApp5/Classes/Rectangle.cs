@@ -9,11 +9,20 @@ namespace ConsoleApp5
     class Rectangle
     {
         Point[] points;
-
+        int width, height;
         public Rectangle(Point[] points)
         {
             this.points = points;
         }
+
+
+        public int Area()
+        {
+            return width * height;
+        }
+
+
+
 
 
     }
