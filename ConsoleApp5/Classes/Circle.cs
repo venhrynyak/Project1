@@ -19,6 +19,13 @@ namespace ConsoleApp5
             this.Radius = radius;
         }
 
+        public double Area()
+        {
+            return 2 * Math.PI * Radius;
+        }
+
+
+
 
 
 
