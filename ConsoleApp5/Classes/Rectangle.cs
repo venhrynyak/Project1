@@ -27,5 +27,14 @@ namespace ConsoleApp5
 
 
 
+        public int Area()
+        {
+            return width * height;
+        }
+
+
+
+
+
     }
 }
